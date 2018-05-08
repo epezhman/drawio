@@ -74,27 +74,27 @@
 	/**
 	 * Defines the maximum size for images.
 	 */
-	EditorUi.prototype.maxBackgroundSize = 1600;
+	EditorUi.prototype.maxBackgroundSize = 1600000;
 
 	/**
 	 * Defines the maximum size for images.
 	 */
-	EditorUi.prototype.maxImageSize = 520;
+	EditorUi.prototype.maxImageSize = 520000;
 
 	/**
 	 * Images above 100K should be resampled.
 	 */
-	EditorUi.prototype.resampleThreshold = 100000;
+	EditorUi.prototype.resampleThreshold = 100000000;
 
 	/**
 	 * Maximum allowed size for images is 1 MB.
 	 */
-	EditorUi.prototype.maxImageBytes = 1000000;
+	EditorUi.prototype.maxImageBytes = 1000000000;
 
 	/**
 	 * Maximum size for background images is 2.5 MB.
 	 */
-	EditorUi.prototype.maxBackgroundBytes = 2500000;
+	EditorUi.prototype.maxBackgroundBytes = 2500000000;
 
 	/**
 	 * Holds the current file.
